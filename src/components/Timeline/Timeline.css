@@ -1,0 +1,52 @@
+.timeline-wrapper {
+  position: relative;
+  overflow-x: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+.zoom-controls {
+  margin-bottom: 10px;
+}
+
+.zoom-controls button {
+  margin-right: 5px;
+  padding: 4px 8px;
+}
+
+.timeline-header {
+  position: relative;
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+.timeline-date {
+  position: absolute;
+  font-size: 10px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.lane {
+  position: relative;
+  height: 30px;
+}
+
+.item {
+  position: absolute;
+  height: 100%;
+  background-color: #0073e6;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

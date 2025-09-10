@@ -23,3 +23,6 @@ function assignLanes(items) {
   }
   return lanes;
 }
+
+
+export default assignLanes;
