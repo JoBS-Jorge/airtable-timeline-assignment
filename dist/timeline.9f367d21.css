@@ -1,0 +1,53 @@
+.timeline-wrapper {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  position: relative;
+  overflow-x: auto;
+}
+
+.zoom-controls {
+  margin-bottom: 10px;
+}
+
+.zoom-controls button {
+  margin-right: 5px;
+  padding: 4px 8px;
+}
+
+.timeline-header {
+  height: 30px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.timeline-date {
+  white-space: nowrap;
+  font-size: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.timeline-container {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.lane {
+  height: 30px;
+  position: relative;
+}
+
+.item {
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #0073e6;
+  border-radius: 4px;
+  height: 100%;
+  padding: 6px 8px;
+  position: absolute;
+  overflow: hidden;
+}
+/*# sourceMappingURL=timeline.9f367d21.css.map */
